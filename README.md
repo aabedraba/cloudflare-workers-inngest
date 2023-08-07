@@ -9,5 +9,5 @@ npm run start
 Start Inngest Dev: 
 
 ```
-npx inngest-cli@latest dev -u http://localhost:8787
+npx inngest-cli@latest dev -u http://localhost:8787/
 ```
