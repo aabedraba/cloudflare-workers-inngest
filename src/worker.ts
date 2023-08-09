@@ -17,7 +17,7 @@ export default {
 
 		const helloWorld = inngest.createFunction({ name: 'Hello World' }, { event: 'demo/hello.world' }, async ({ events, step }) => {
 			await step.run('non-retriable-error', () => {
-				throw new Error('Hello World!');
+				throw new NonRetriableError('Hello World!');
 			});
 		});
 
